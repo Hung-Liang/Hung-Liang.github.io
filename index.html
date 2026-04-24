@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hung Liang's Resume</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><path fill=%22%23000%22 d=%22M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z%22/></svg>">
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <style>
+/* Backbone CSS for Resume Template 1 */
+
+/* Basic */
+
+#vue-smart-pages-preview {
+  background-color: white;
+  color: black;
+  text-align: left;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+#vue-smart-pages-preview p,
+#vue-smart-pages-preview li,
+#vue-smart-pages-preview dl {
+  margin: 0;
+}
+
+/* Headings */
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  font-weight: bold;
+}
+
+#vue-smart-pages-preview h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+#vue-smart-pages-preview h2,
+#vue-smart-pages-preview h3 {
+  margin-bottom: 0.25em;
+  margin-top: 1.0em;
+  font-size: 1.2em;
+}
+
+#vue-smart-pages-preview h1,
+#vue-smart-pages-preview h2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: darkgrey;
+}
+
+/* Lists */
+
+#vue-smart-pages-preview ul,
+#vue-smart-pages-preview ol {
+  padding-left: 1.5em;
+  margin: 0.2em 0 1.0em 0;
+}
+
+#vue-smart-pages-preview ul {
+  list-style-type: disc;
+}
+
+#vue-smart-pages-preview ol {
+  list-style-type: decimal;
+}
+
+/* Definition Lists */
+
+#vue-smart-pages-preview dl {
+  display: flex;
+}
+
+#vue-smart-pages-preview dl dt,
+#vue-smart-pages-preview dl dd:not(:last-child) {
+  flex: 1;
+}
+
+/* Tex */
+
+#vue-smart-pages-preview :not(span.katex-display) > span.katex {
+  font-size: 1em !important;
+}
+
+/* SVG & Images */
+
+#vue-smart-pages-preview svg.iconify {
+  vertical-align: -0.2em;
+}
+
+#vue-smart-pages-preview img {
+  max-width: 100%;
+}
+
+/* Header */
+
+#vue-smart-pages-preview .resume-header {
+  text-align: center;
+}
+
+#vue-smart-pages-preview .resume-header h1 {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+#vue-smart-pages-preview .resume-header-item:not(.no-separator)::after {
+  content: " | ";
+}
+
+/* Citations */
+
+#vue-smart-pages-preview ul.crossref-list {
+  padding-left: 1.2em;
+}
+
+#vue-smart-pages-preview li.crossref-item p {
+  margin-left: 0.5em;
+}
+
+#vue-smart-pages-preview li.crossref-item::marker {
+  content: attr(data-caption);
+}
+
+#vue-smart-pages-preview sup.crossref-ref {
+  font-size: 100%;
+  top: 0;
+}
+
+/* Dark & print mode */
+
+.dark #vue-smart-pages-preview {
+  background-color: #334155;
+  color: #e5e7eb;
+}
+
+@media print {
+  #vue-smart-pages-preview {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .dark #vue-smart-pages-preview a {
+    color: black !important;
+  }
+}
+
+    /* Dynamic Styles */
+    body {
+      font-family: Tahoma, HKST;
+      font-size: 12px;
+      background-color: #f5f5f5;
+      color: black;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    #vue-smart-pages-preview {
+      background-color: white;
+      width: 793px;
+      max-width: 100%;
+      padding: 55px 42px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+    }
+    
+    :not(.resume-header-item) > a {
+      color: #000000;
+    }
+    
+    h1, h2, h3 {
+      color: #000000;
+    }
+    
+    h1, h2 {
+      border-bottom-color: #000000;
+    }
+    
+    p, li {
+      line-height: 1.25;
+    }
+    
+    h2, h3 {
+      line-height: 1.44;
+    }
+    
+    dl {
+      line-height: 1.30;
+    }
+    
+    h2 {
+      margin-top: 5px;
+    }
+    
+    @media print {
+      body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+      }
+      
+      #vue-smart-pages-preview {
+        width: 100%;
+        max-width: none;
+        box-shadow: none;
+        margin: 0;
+        padding: 55px 42px;
+      }
+      
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <main id="vue-smart-pages-preview">
+<div class="resume-header"></div><div style="text-align: center;">
+<h1>Hung Liang</h1>
+<p><span class="iconify" data-icon="ic:outline-location-on"></span> Taiwan | <span class="iconify" data-icon="tabler:brand-github"></span> <a href="https://github.com/Hung-Liang" target="_blank" rel="noopener">github.com/Hung-Liang</a> | <span class="iconify" data-icon="tabler:brand-linkedin"></span> <a href="https://www.linkedin.com/in/hung-liang/" target="_blank" rel="noopener">linkedin.com/in/hung-liang</a> | <span class="iconify" data-icon="tabler:mail"></span> <a href="mailto:hung@bobing.dev">hung@bobing.dev</a></p>
+</div>
+<h2>Summary</h2>
+<p>Experienced software and DevOps engineer with a focus on backend development, security automation, and infrastructure integration. Built API-driven security testing platforms and multi-service internal tools using Python, FastAPI, Flask, Docker, and Robot Framework, integrated with GitLab CI/CD pipelines. Skilled in designing modular backend systems with PostgreSQL, MongoDB, and Redis, and deploying containerized services behind Nginx reverse proxies. Committed to delivering secure, scalable, and maintainable internal systems.</p>
+<h2>Experience</h2>
+<dl>
+<dt><strong>Software Engineer</strong></dt>
+<dd><strong>Super Micro Computer, Inc.</strong></dd>
+<dd><strong>Nov 2021 - Present</strong></dd>
+</dl>
+<p>Managed backend development, infrastructure automation, and security testing integration. Architected multiple internal platforms to streamline firmware validation and hardware data synchronization.<br><br></p>
+<ul>
+<li>
+<p><strong>BMC Penetration Testing Automation:</strong> Built a Robot Framework-based automated security testing platform targeting BMC devices. Implemented a dual-protocol HTTP client handling CGI and Redfish login flows, multi-token session management, and dynamic CSRF extraction. Designed a multi-stage Docker environment integrating GitLab CI/CD, and built resilience mechanisms including IPMI recursive retry and Redfish fallback.</p>
+</li>
+<li>
+<p><strong>Test Orchestration &amp; Automation Service:</strong> Architected a two-tier orchestration system using Flask and Gunicorn. Implemented non-blocking test dispatch with per-job filesystem state and MongoDB-backed unique ID generation. Integrated Nessus REST API orchestration, automated Hyper-V VM snapshot restore via remote PowerShell, and report generation with SMTP delivery.</p>
+</li>
+<li>
+<p><strong>Product Specification Search Platform:</strong> Developed a FastAPI backend with PostgreSQL-based weighted fuzzy search using pg_trgm and JSONB-based filters. Built a parallel async crawler using asyncio.gather and httpx to fetch and deduplicate product specs, with rate-limit-aware retries, MongoDB batch fallback, and bulk PostgreSQL UPSERT.</p>
+</li>
+<li>
+<p><strong>Internal Multi-Service Platform:</strong> Built and maintained a Docker Compose multi-container backend exposing a unified API gateway via Nginx map-based dynamic upstream routing. Implemented firmware extraction and a Cybellum report aggregation pipeline combining various inputs into branded DOCX/PDF reports with MongoDB GridFS persistence.</p>
+</li>
+</ul>
+<dl>
+<dt><strong>Consultant</strong></dt>
+<dd><strong>TutorABC</strong></dd>
+<dd><strong>Jun 2020 - Present</strong></dd>
+</dl>
+<ul>
+<li>Online tutor teaching students Python and programming fundamentals.</li>
+</ul>
+<h2>Projects</h2>
+<dl>
+<dt><strong>Idle Exile</strong></dt>
+<dd><strong>Automated ARPG Simulation Web App</strong></dd>
+</dl>
+<ul>
+<li>Developed a high-level idle ARPG utilizing <strong>React, TypeScript, and Vite</strong>, simulating core growth systems similar to <em>Path of Exile</em>.</li>
+<li>Implemented complex mechanics including automated combat, randomized gear generation, visual talent trees, and offline progress calculations.</li>
+</ul>
+<dl>
+<dt><strong>YouTube &amp; Twitch Notifier</strong></dt>
+<dd><strong>Cross-platform Live Stream Alerts</strong></dd>
+</dl>
+<ul>
+<li>Engineered a notification system supporting <strong>YouTube and Twitch</strong> using <strong>Python and APScheduler</strong>, dispatching real-time alerts via Telegram/Discord Webhooks.</li>
+<li>Integrated third-party APIs including YouTube v3 and Twitch API to monitor channel status and video uploads with automated background polling.</li>
+</ul>
+<dl>
+<dt><strong>Hung Recipes</strong></dt>
+<dd><strong>PWA Recipe Management System</strong></dd>
+</dl>
+<ul>
+<li>Built a modern recipe manager using <strong>Vanilla JavaScript and Tailwind CSS</strong>, featuring smart search, multi-dimensional tag filtering, and PWA offline access.</li>
+<li>Developed automated <strong>Python</strong> scripts to organize recipe data into indexed JSON formats for efficient client-side consumption.</li>
+</ul>
+<h2>Education</h2>
+<dl>
+<dt><strong>Master's Degree of Computer Science</strong></dt>
+<dd><strong>Feb 2020 - Sep 2021</strong></dd>
+<dd>Tamkang University, Taiwan</dd>
+</dl>
+<dl>
+<dt><strong>Bachelor's Degree of Computer Science</strong></dt>
+<dd><strong>Sep 2014 - Jul 2019</strong></dd>
+<dd>Tamkang University, Taiwan</dd>
+</dl>
+<h2>Skills</h2>
+<p><strong>Programming Languages:</strong> Python, Golang, JavaScript, Bash, Shell Scripting</p>
+<p><strong>Frameworks &amp; APIs:</strong> FastAPI, Flask, RESTful APIs, Robot Framework, SQLAlchemy, Pydantic</p>
+<p><strong>Security &amp; Testing:</strong> Penetration Testing (BMC/Redfish/CGI), Nessus, IPMI, Selenium, Paramiko</p>
+<p><strong>DevOps &amp; Infrastructure:</strong> Docker, Docker Compose, GitLab CI/CD, Nginx, Gunicorn, Linux</p>
+<p><strong>Databases &amp; Storage:</strong> PostgreSQL (pg_trgm, JSONB), MongoDB (Motor, GridFS), Redis</p>
+<h2>Languages</h2>
+<p><strong>Mandarin:</strong> Native | <strong>English:</strong> Fluent</p>
+
+  </main>
+</body>
+</html>
